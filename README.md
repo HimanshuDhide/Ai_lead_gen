@@ -27,6 +27,7 @@ First, clone or download the project repository to your local machine. You can e
 2. Install the Required Libraries
 Navigate to the project directory in your terminal and install the required libraries using pip.
 To install the dependencies, run the following command:
+
 pip install -r requirements.txt
 
 3. Load the Model
@@ -34,12 +35,14 @@ Ensure that you have the trained XGBoost model (xgboost_model.pkl) saved locally
 
 4. Run the Flask API
 In the terminal, navigate to the project directory where the app.py file is located, then run the Flask API:
+
 python app.py
 
 If everything is set up correctly, you should see output indicating that the Flask app is running. The default URL will be:
 http://127.0.0.1:5000
 
 then run:
+
 test_api.py
 
 5. Access the Processed Leads
