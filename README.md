@@ -9,7 +9,7 @@ REST API for predictions using Flask.
 Batch processing for lead scoring, which processes the entire dataset and filters high-priority leads.
 Saves high-priority leads (with scores > 70%) in a CSV file with the percentage of conversion.
 
-2. How to Run the Project Locally:
+1. How to Run the Project Locally:
 
 Step 1: Clone the Repository
 git clone https://github.com/HimanshuDhide/Ai_lead_gen.git
