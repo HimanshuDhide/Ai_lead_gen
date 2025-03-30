@@ -1,27 +1,22 @@
 Overview
+
 This project implements a lead scoring model using XGBoost. The model is exposed as a REST API, allowing users to send lead data, get a lead score prediction, and filter leads with scores above a certain threshold (e.g., 70%). The dataset contains 29 features.
 
 Features
+
 Machine Learning model trained using XGBoost.
-
 REST API for predictions using Flask.
-
 Batch processing for lead scoring, which processes the entire dataset and filters high-priority leads.
-
 Saves high-priority leads (with scores > 70%) in a CSV file with the percentage of conversion.
 
 Required Libraries
 Flask
-
 pandas
-
 numpy
-
 xgboost
-
 scikit-learn
-
 requests
+os
 
 Step-by-Step Installation
 Follow these steps to set up and run the project:
